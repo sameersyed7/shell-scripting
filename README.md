@@ -1,0 +1,2 @@
+# shell-scripting
+Devops practice 
