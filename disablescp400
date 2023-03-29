@@ -1,0 +1,10 @@
+---
+- name: Set SCP permissions to 400
+  hosts: all
+  become: true
+  
+  tasks:
+    - name: Set scp permissions to 400
+      file:
+        path: /bin/scp
+        mode: "u=r,go="
